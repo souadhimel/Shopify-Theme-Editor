@@ -2,7 +2,7 @@
 
   .my_liquid {
     background-color: chartreuse;
-    color: darkred;
+    color:{{section.settings.body_text}};
     justify-content: center;
     text-align: center;
     padding: 20px;
@@ -16,10 +16,7 @@
 <div class="my_liquid">
 
   {{ section.settings.a_text}}
-<<<<<<< HEAD
-  
-=======
->>>>>>> f26578612a9ac0e2f2067e58026e95af5cef19ad
+
 </div>
   {% endif %}
 
@@ -49,7 +46,14 @@
               "unit": "px",
               "label": "Font size",
               "default": 16
+            },
+                {
+              "type": "color",
+              "id": "body_text",
+              "label": "Body text",
+              "default": "#000000"
             }
+
 
 
 
