@@ -176,12 +176,6 @@
       "acb": {
         "type": "acb",
         "settings": {
-          "show_announcement": true,
-          "a_text": "I love my country",
-          "font_size": 37,
-          "body_text": "#03180a",
-          "background": "linear-gradient(253deg, rgba(226, 33, 32, 1) 37%, rgba(254, 91, 124, 1) 65%, rgba(255, 140, 162, 1) 81%)",
-          "vertical_alignment": "middle"
         }
       }
     },
