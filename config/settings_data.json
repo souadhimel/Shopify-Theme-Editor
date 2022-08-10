@@ -180,7 +180,7 @@
           "a_text": "I love my country",
           "font_size": 37,
           "body_text": "#03180a",
-          "background": "radial-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 23%, rgba(255, 255, 255, 1) 29%, rgba(255, 255, 255, 1) 61.151%, rgba(255, 255, 255, 1) 71.942%, rgba(255, 255, 255, 1) 79.496%, rgba(0, 0, 0, 1) 100%)"
+          "background": "linear-gradient(180deg, rgba(255, 145, 129, 1) 26%, rgba(254, 91, 124, 1) 49%, rgba(255, 140, 162, 1) 100%)"
         }
       }
     },
