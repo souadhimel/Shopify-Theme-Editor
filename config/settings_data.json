@@ -100,24 +100,6 @@
     "show_vendor": false,
     "show_cart_note": false,
     "sections": {
-      "announcement-bar": {
-        "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
-        "settings": {
-        }
-      },
       "header": {
         "type": "header",
         "settings": {
@@ -191,22 +173,11 @@
           "color_scheme": "background-1"
         }
       },
-      "ac-bar": {
-        "type": "ac-bar",
-        "blocks": {
-          "ac-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to store",
-              "color_scheme": "accent-2",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "ac-bar-0"
-        ],
+      "acb": {
+        "type": "acb",
         "settings": {
+          "show_announcement": true,
+          "a_text": "I love my country"
         }
       }
     },
