@@ -1,7 +1,7 @@
 <style>
 
   .my_liquid {
-    background-color: {{section.settings.bg_color}};
+    background-color: {{section.settings.background}};
     color:{{section.settings.body_text}};
     justify-content: center;
     text-align: center;
@@ -53,18 +53,13 @@
               "label": "Choose a color",
               "default": "#000000"
             },
-    {
-  "type": "color_background",
-  "id": "bg_color",
-  "label": "Background",
-  "default": "linear-gradient(#ffffff, #000000)"
-}
-
-
-
-
-
-      
+                            {
+                "type": "color_background",
+                "id": "background",
+                "label": "Background",
+                "default": "linear-gradient(#ffffff, #000000)"
+              }
+   
     ]
   }
 {% endschema %}
