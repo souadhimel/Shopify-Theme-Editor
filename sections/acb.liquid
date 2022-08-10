@@ -15,7 +15,6 @@
 <div class="my_liquid">
 
   {{ section.settings.a_text}}
-  {{ section.settings.font_size}}
 </div>
   {% endif %}
 
@@ -36,16 +35,17 @@
                   "label": "Heading",
                   "default": "Please enter a text"
                 },
-                {
-                  "type": "range",
-                  "id": "font_size",
-                  "min": 12,
-                  "max": 24,
-                  "step": 1,
-                  "unit": "px",
-                  "label": "Font size",
-                  "default": 16
-                }
+                  {
+              "type": "range",
+              "id": "font_size",
+              "min": 12,
+              "max": 24,
+              "step": 1,
+              "unit": "px",
+              "label": "Font size",
+              "default": 16
+            }
+
 
 
 
