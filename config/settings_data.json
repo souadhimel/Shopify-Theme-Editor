@@ -178,7 +178,9 @@
         "settings": {
           "show_announcement": true,
           "a_text": "I love my country",
-          "font_size": 37
+          "font_size": 37,
+          "body_text": "#03180a",
+          "bg_color": "#d4afaf"
         }
       }
     },
