@@ -177,7 +177,8 @@
         "type": "acb",
         "settings": {
           "show_announcement": true,
-          "a_text": "I love my country"
+          "a_text": "I love my country",
+          "font_size": 37
         }
       }
     },
