@@ -13,7 +13,8 @@
 
 {% if section.settings.show_announcement %}
 <div class="my_liquid">
-Hello liquid
+
+  {{ section.settings.a_text}}
 </div>
   {% endif %}
 
@@ -27,7 +28,14 @@ Hello liquid
                   "id": "show_announcement",
                   "label": "Show announcement",
                   "default": true
+                },
+                {
+                  "type": "text",
+                  "id": "a_text",
+                  "label": "heading",
+                  "default": "Please enter a text"
                 }
+
 
 
       
