@@ -1,0 +1,42 @@
+<style>
+
+  .my_liquid {
+    background-color: chartreuse;
+    color: darkred;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+  
+</style>
+
+{% if section.settings.show_announcement %}
+<div class="my_liquid">
+Hello liquid
+</div>
+  {% endif %}
+
+
+{% schema %}
+  {
+    "name": "Acb",
+    "settings": [
+                {
+                  "type": "checkbox",
+                  "id": "show_announcement",
+                  "label": "Show announcement",
+                  "default": true
+                }
+
+
+      
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
