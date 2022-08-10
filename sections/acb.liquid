@@ -4,9 +4,8 @@
   .my_liquid {
     background-color: {{section.settings.background}};
     color:{{section.settings.body_text}};
-    justify-content: center;
     text-align: {{section.settings.text_alignment}};
-    padding: 20px;
+    padding: {{ section.settings.padding }}px;
     font-size:{{ section.settings.font_size }}px;
 }
 
@@ -48,18 +47,23 @@
               "label": "Font size",
               "default": 16
             },
+          {
+              "type": "range",
+              "id": "padding",
+              "min": 12,
+              "max": 20,
+              "step": 1,
+              "unit": "px",
+              "label": "Padding",
+              "default": 16
+            },
                 {
               "type": "color",
               "id": "body_text",
               "label": "Choose a color",
               "default": "#000000"
             },
-                            {
-                "type": "color_background",
-                "id": "background",
-                "label": "Background",
-                "default":  "#000"
-              },
+
                   {
               "type": "select",
               "id": "text_alignment",
